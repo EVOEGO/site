@@ -24,8 +24,8 @@ html, body {
      mix-blend-mode: screen
  }
  #whoami {
-     margin-left: 640px;
-     margin-top: 380px;
+     margin-left: 46%;
+     margin-top: 27%;
  }
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
@@ -48,7 +48,7 @@ html, body {
 
 section {
     padding: 60px 0;
-    margin-top: 200px;
+    margin-top: 18%;
 }
 
 section .section-title {
@@ -252,6 +252,7 @@ body {
     background-color: white;
     border-top: .05rem solid #e5e5e5;
 }
+
  #facebookicon {
      height: 35px;
      width: 35px;
@@ -279,32 +280,27 @@ body {
 }
 #infocard1 {
     width: 600px;
-    margin-top: -150px;
-    margin-left: 650px;
-
+    height: 250px;
+    margin-top: -12.5%;
+    margin-left: 47%;
+    font-size: 25px;
 }
+
 #devphoto {
-    width: 200px;
-    height: 200px;
-    margin-top: 150px;
-    margin-left: 350px;
+    width: 250px;
+    height: 250px;
+    margin-top: 8%;
+    margin-left: 28%;
     border-radius: 50%;
 
 }
+#container {
+    top: 4%;
+    text-align: center;
+    padding-top: 10px;
+}
 
-#circles {
-    margin-left: 530px;
-    margin-top: 30px;
-}
-#circles hr {
-    color: white;
-    height: 0.8px;
-    border: none;
-    width: auto;
-    margin-left: -630px;
-    background-color: white;
-    margin-top: 80px
-}
+
 
 .label {
     background: white;
@@ -316,21 +312,19 @@ body {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
 }
-#langauges h1 {
-    color: white;
+#langauges {
+    height: 500px;
+    margin-top: 20%;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#langaugesheading {
+    color: black;
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
-    margin-top: 120px;
-    margin-bottom: -190px;
-    margin-left: 520px;
+
 }
-#langauges hr {
-    color: white;
-    height: 1px;
-    border: none;
-    background-color: white;
-    margin-top: 190px
-}
+
 #cardbackground {
     width: 958px;
     height: 330px;
@@ -340,11 +334,65 @@ body {
 
 }
 #info {
-    margin-top: 10px;
+    margin-top: 40%;
     margin-left: -45px;
 }
 #controller1 {
-    margin-top: 100px;
-    width: 700px;
-    margin-left: 400px;
+    width: 600px;
+    padding-top: 2%;
+    margin-left: 35%;
 }
+
+#parallax {
+    background-image: url("img/building.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aboutheading {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+}
+#container2 {
+    height: 680px;
+    background: transparent;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#MyServices {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    position: absolute;
+    top: 265%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+}
+#servicesbutton {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 47%;
+    margin-top: 25%;
+}
+

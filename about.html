@@ -10,7 +10,8 @@
 
 </head>
 <body>
-<div id="wrapper" >
+
+<div id="parallax" >
     <nav class="navbar">
         <span class="navbar-toggle" id="js-navbar-toggle">
             <i class="fas fa-bars"></i>
@@ -35,47 +36,54 @@
         </ul>
     </nav>
 
+    <p id="aboutheading">About Me</p>
+
     <div id="info">
             <img src="img/me.png" id="devphoto">
 
             <div class="card border-secondary mb-3" id="infocard1">
                 <div class="card-body text-secondary">
-                    <h5 class="card-title">Hi Im Izaac</h5>
-                    <p class="card-text">Im a passionate developer how has a keen eye for detail. If your looking for someone to
+                    <h1 class="card-title">Hi Im Izaac</h1>
+                    <p class="card-text">Im a passionate developer who has a keen eye for detail. If your looking for someone to
                     do a big or small job look no further, im the guy. </p>
                 </div>
             </div>
     </div>
+
     <div id="langauges">
-        <h1>Some of the languages i know:</h1>
-        <hr>
-    </div>
+        <div id="container">
+        <h1 id="langaugesheading">Some of the languages i know:</h1>
+            <div id="circles">
+                <span class="label">C#</span>
+                <span class="label">C++</span>
+                <span class="label">PHP</span>
+                <span class="label">HTML</span>
+                <span class="label">CSS</span>
+                <span class="label">Javascript</span>
+          </div>
+        </div>
 
-    <div id="circles">
-        <span class="label">Java</span>
-        <span class="label">C#</span>
-        <span class="label">C++</span>
-        <span class="label">PHP</span>
-        <span class="label">HTML</span>
-        <span class="label">CSS</span>
-        <span class="label">Javascript</span>
-        <hr>
-    </div>
+        <div id="controller1">
+            <div class="card border-secondary mb-3" id="infocard2">
+                <div class="card-body text-secondary">
+                    <h5 class="card-title">Bit of Info about myself</h5>
+                    <p class="card-text">I recently graduated from university with a bachlors degree in computer science.</p>
+                    <p class="card-text">Im quite competent in building android apps, and currently upskilling for ios development.</p>
+                    <p class="card-text">Im currently 21 years old.</p>
+                    <p class="card-text">Im really into cars and keeping fit.</p>
+                    <p class="card-text">Ive always had a interest in IT since i was very young.</p>
 
-    <div id="controller1">
-        <div class="card border-secondary mb-3" id="infocard2">
-            <div class="card-body text-secondary">
-                <h5 class="card-title">Bit of Info about myself</h5>
-                <p class="card-text">I recently graduated from university with a bachlors degree in computer science.</p>
-                <p class="card-text">Im quite competent in building android apps, and currently upskilling for ios development.</p>
-                <p class="card-text">Im currently 21 years old.</p>
-                <p class="card-text">Im really into cars and keeping fit.</p>
-                <p class="card-text">Ive always had a interest in IT since i was very young.</p>
-
+                </div>
             </div>
         </div>
     </div>
 
+    <div id="container2">
+        <p id="MyServices" onclick="goToAbout()">My Services</p>
+
+    </div>
+
+</div>
     <div id="footer">
         <p>@Copyright Izaac Crooke</p>
         <img src="icons/facebook.png" id="facebookicon" onclick="facebook()">

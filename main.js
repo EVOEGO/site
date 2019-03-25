@@ -21,3 +21,6 @@ function instagram(){
 function aboutpage() {
     document.location.href = "about.html";
 }
+function goToAbout() {
+    document.location.href = "services.html";
+}
