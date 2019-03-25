@@ -10,13 +10,26 @@ html, body {
  #heading1 {
      font-family: 'Quicksand', sans-serif;
      font-size: 100px;
-     color: white;
      text-align: center;
-     margin-top: 200px;
+     background: rgba(255, 255, 255, 0.9);
+     color: black;
+     font-weight: bold;
+     margin: 0 auto;
+     padding: 10px;
+     width: 50%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     mix-blend-mode: screen
+ }
+ #whoami {
+     margin-left: 640px;
+     margin-top: 380px;
  }
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
-    background: #eee !important;
+    background: rgba(255, 255, 255, 0.8); !important;
 }
 
 .btn-primary:hover,
@@ -35,7 +48,7 @@ html, body {
 
 section {
     padding: 60px 0;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 section .section-title {
@@ -93,7 +106,7 @@ section .section-title {
     position: absolute;
     top: 0;
     left: 0;
-    background: white;
+    background-color: rgba(255, 255, 255, 0.8);
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -o-transform: rotateY(-180deg);
@@ -142,6 +155,196 @@ section .section-title {
     height: 120px;
     border-radius: 50%;
 }
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
+body {
+    font-family: 'Quicksand', sans-serif;
+}
 
+.navbar {
+    font-size: 18px;
+    background-color: transparent;
+    padding-bottom: 10px;
+}
 
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+}
+
+.active {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .main-nav li {
+        margin: 0;
+    }
+
+    .nav-links {
+        margin-left: 40px;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+}
+
+#footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: white;
+    border-top: .05rem solid #e5e5e5;
+}
+ #facebookicon {
+     height: 35px;
+     width: 35px;
+     margin-right: auto;
+     margin-left: auto;
+
+ }
+#instagramicon {
+    height: 35px;
+    width: 35px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#snapchaticon {
+    height: 35px;
+    width: 35px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#linkedinicon {
+    height: 35px;
+    width: 35px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#infocard1 {
+    width: 600px;
+    margin-top: -150px;
+    margin-left: 650px;
+
+}
+#devphoto {
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 350px;
+    border-radius: 50%;
+
+}
+
+#circles {
+    margin-left: 530px;
+    margin-top: 30px;
+}
+#circles hr {
+    color: white;
+    height: 0.8px;
+    border: none;
+    width: auto;
+    margin-left: -630px;
+    background-color: white;
+    margin-top: 80px
+}
+
+.label {
+    background: white;
+    display:inline-block;
+    border-radius: 12px;
+    color: black;
+    height: 28px;
+    padding: 3px 8px 3px 6px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+#langauges h1 {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    margin-top: 120px;
+    margin-bottom: -190px;
+    margin-left: 520px;
+}
+#langauges hr {
+    color: white;
+    height: 1px;
+    border: none;
+    background-color: white;
+    margin-top: 190px
+}
+#cardbackground {
+    width: 958px;
+    height: 330px;
+    margin-top: -250px;
+    margin-left: 280px;
+    background: rgba(255, 255, 255, 0.2);
+
+}
+#info {
+    margin-top: 10px;
+    margin-left: -45px;
+}
+#controller1 {
+    margin-top: 100px;
+    width: 700px;
+    margin-left: 400px;
+}

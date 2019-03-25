@@ -6,14 +6,38 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="izaacstyle.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="main.js"></script>
 
 </head>
 <body>
     <div id="wrapper" >
-
-
+        <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+            <a href="index.html" class="logo">Izaac Crooke</a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="index.html" class="nav-links">Home</a>
+                </li>
+                <li>
+                    <a href="services.html" class="nav-links">My Services</a>
+                </li>
+                <li>
+                    <a href="about.html" class="nav-links">About Me</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="nav-links">Contact</a>
+                </li>
+                <li>
+                    <a href="currentprojects.html" class="nav-links">My Current Projects</a>
+                </li>
+            </ul>
+        </nav>
 
         <p id="heading1">Welcome</p>
+        <button type="button" class="btn btn-secondary" id="whoami" onclick="aboutpage()">Who Am I?</button>
+
 
         <section id="team" class="pb-5">
             <div class="container">
@@ -165,6 +189,17 @@
             </div>
         </section>
 
-    </div>
+        <div id="footer">
+            <p>@Copyright Izaac Crooke</p>
+            <img src="icons/facebook.png" id="facebookicon" onclick="facebook()">
+            <img src="icons/instagram.png" id="instagramicon" onclick="instagram()">
+            <img src="icons/linkedin.png" id="linkedinicon" onclick="linkedin()">
+            <img src="icons/snapchat.png" id="snapchaticon" onclick="snapchat()">
+        </div>
+
+
+
+
+
 </body>
 </html>
