@@ -6,36 +6,105 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="izaacstyle.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <script src="main.js"></script>
+    <script src="services.js"></script>
 
 </head>
 <body>
-<div id="wrapper" >
-    <nav class="navbar">
-        <span class="navbar-toggle" id="js-navbar-toggle">
-            <i class="fas fa-bars"></i>
-        </span>
-        <a href="index.html" class="logo">Izaac Crooke</a>
-        <ul class="main-nav" id="js-menu">
-            <li>
-                <a href="index.html" class="nav-links">Home</a>
-            </li>
-            <li>
-                <a href="services.html" class="nav-links">My Services</a>
-            </li>
-            <li>
-                <a href="about.html" class="nav-links">About Me</a>
-            </li>
-            <li>
-                <a href="contact.html" class="nav-links">Contact</a>
-            </li>
-            <li>
-                <a href="currentprojects.html" class="nav-links">My Current Projects</a>
-            </li>
-        </ul>
-    </nav>
+    <div id="serviceswrapper" >
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <a href="index.html" class="logo">Izaac Crooke</a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="index.html" class="nav-links">Home</a>
+                </li>
+                <li>
+                    <a href="services.html" class="nav-links">My Services</a>
+                </li>
+                <li>
+                    <a href="about.html" class="nav-links">About Me</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="nav-links">Contact</a>
+                </li>
+                <li>
+                    <a href="currentprojects.html" class="nav-links">My Current Projects</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="container3">
+            <p id="servicesheading">My Services</p>
+           <a href="#container4" class="btn btn-secondary" id="scrollbutton">Scroll Down</a>
+        </div>
+
+        <div id="container4">
+            <h3 class="card-title">Services I Offer</h3>
+            <hr>
+            <p class="card-text">Website Development</p>
+            <p class="card-text">Software Development</p>
+            <p class="card-text">Website Management</p>
+            <p class="card-text">Software Testing</p>
+            <p class="card-text">Requirements Gathering</p>
+            <hr>
+            <h5 class="card-title">Been working with software for 5 years</h5>
+            <p class="card-text">I have been working with software for 5 years now, from building simple websites to building mobile apps
+                and backend applications. I like to create modular code that can be reused constantly without having to rebuild the whole
+                application. </p>
+            <p class="card-text">Ive worked on many projects that are part of a agile environment, im also very familiar with defect and project
+                management tools like Trello and Jira.</p>
+
+            <hr>
+            <h3>Services Break Down</h3>
+            <hr>
+            <div id="pricingtable">
+                <div class="columns">
+                    <ul class="price">
+                        <li class="header">Web Development</li>
+                        <li id="listitems">Website creation</li>
+                        <li id="listitems">Database creation</li>
+                        <li id="listitems">Choose your own layout</li>
+                        <li id="listitems">On going website maintenance</li>
+                        <li id="listfooter"><a href="contact.html" class="button">Enquire</a></li>
+                    </ul>
+                </div>
+
+                <div class="columns">
+                    <ul class="price">
+                        <li class="header">Software Development</li>
+                        <li id="listitems">Capable Front&Back-End Dev</li>
+                        <li id="listitems">IOS and Android</li>
+                        <li id="listitems">Modular Code</li>
+                        <li id="listitems">GUI</li>
+                        <li id="listfooter"><a href="contact.html" class="button">Enquire</a></li>
+                    </ul>
+                </div>
+
+                <div class="columns">
+                    <ul class="price">
+                        <li class="header">Website management</li>
+                        <li id="listitems">Tracking Weekly/Monthly/Yearly users</li>
+                        <li id="listitems">Reporting on websites progress</li>
+                        <li id="listitems">Keeping website content/code updated</li>
+                        <li id="listitems">Preventing security threats</li>
+                        <li id="listfooter"><a href="contact.html" class="button">Enquire</a></li>
+                    </ul>
+                </div>
+            </div>
 
 
+        </div>
+        <div id="otherenquires">
+            <h3>For any other enquires, click the button below</h3>
+            <hr>
+            <a href="contact.html" class="btn btn-secondary">Other Enquiries</a>
+        </div>
+
+
+
+    </div>
     <div id="footer">
         <p>@Copyright Izaac Crooke</p>
         <img src="icons/facebook.png" id="facebookicon" onclick="facebook()">

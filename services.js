@@ -1,30 +1,4 @@
-let mainNav = document.getElementById('js-menu');
-let navBarToggle = document.getElementById('js-navbar-toggle');
-
-navBarToggle.addEventListener('click', function () {
-    mainNav.classList.toggle('active');
-});
-
-function facebook() {
-    window.open("https://www.facebook.com");
-}
-function snapchat() {
-    alert("Go to my contact me page");
-}
-function linkedin() {
-    window.open("https://www.linkedin.com/in/izaac-crooke-213220b3/");
-}
-function instagram(){
-    window.open("https://www.instagram.com/izaac_crooke/");
-}
-
-function aboutpage() {
-    document.location.href = "about.html";
-}
-function goToAbout() {
-    document.location.href = "services.html";
-}
-$(document).ready(function(){
+ $(document).ready(function(){
         // Add smooth scrolling to all links
         $("a").on('click', function(event) {
 
@@ -47,5 +21,24 @@ $(document).ready(function(){
                 });
             } // End if
         });
-});
+  });
+function gotocontact() {
+    document.location.href("contact.html");
+}
+
+ var btn = $('#button');
+
+ $(window).scroll(function() {
+     if ($(window).scrollTop() > 300) {
+         btn.addClass('show');
+     } else {
+         btn.removeClass('show');
+     }
+ });
+
+ btn.on('click', function(e) {
+     e.preventDefault();
+     $('html, body').animate({scrollTop:0}, '300');
+ });
+
 

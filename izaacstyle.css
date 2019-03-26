@@ -1,6 +1,9 @@
 html, body {
     height: auto;
 }
+html {
+    scroll-behavior: smooth;
+}
 #wrapper{
     background: url('img/building.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -281,7 +284,7 @@ body {
 #infocard1 {
     width: 600px;
     height: 250px;
-    margin-top: -12.5%;
+    margin-top: -16%;
     margin-left: 47%;
     font-size: 25px;
 }
@@ -314,9 +317,10 @@ body {
 }
 #langauges {
     height: 500px;
-    margin-top: 20%;
+    margin-top: 22%;
     background: rgba(255, 255, 255, 0.9);
 }
+
 
 #langaugesheading {
     color: black;
@@ -340,7 +344,7 @@ body {
 #controller1 {
     width: 600px;
     padding-top: 2%;
-    margin-left: 35%;
+    margin-left: 30%;
 }
 
 #parallax {
@@ -385,7 +389,7 @@ body {
     padding: 10px;
     width: 50%;
     position: absolute;
-    top: 265%;
+    top: 400%;
     left: 50%;
     transform: translate(-50%, -50%);
     mix-blend-mode: screen;
@@ -394,5 +398,116 @@ body {
     font-family: 'Quicksand', sans-serif;
     margin-left: 47%;
     margin-top: 25%;
+}
+#servicesheading {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+}
+
+#serviceswrapper {
+    background: url('img/building.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 1980px;
+    overflow: hidden;
+}
+#servicesrundown {
+    margin-top: 45%;
+    text-align: center;
+    border: none;
+    width: 105%;
+}
+#container4 {
+    padding-top: 8px;
+    background: rgba(255, 255, 255, 0.9);;
+    height: 1200px;
+    text-align: center;
+    margin-top: 25%;
+}
+#myexperience {
+    padding-top: 20px;
+    margin-top: 2%;
+}
+
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.6)
+}
+
+.price .header {
+    background-color: grey;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+
+    padding: 20px;
+    text-align: center;
+}
+
+#listitems {
+    background-color: white;
+    font-size: 20px;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+#listfooter {
+    background-color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+#pricingtable {
+    margin-top: 2%;
+
+}
+#scrollbutton {
+    margin-top: 28%;
+    margin-left: 44%;
+}
+#scrollbutton2 {
+    margin-left: 46%;
+    margin-top: 4%;
+}
+#otherenquires{
+    margin-top: -15%;
+    text-align: center;
 }
 
