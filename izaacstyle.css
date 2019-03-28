@@ -705,16 +705,14 @@ body {
     #contactform {
         width: 400px;
         height: 650px;
-        margin-top: 10%;
-        margin-left: 10%
+        margin: 10% auto;
     }
     #forminputfields {
         width: 350px;
     }
     #currentproject {
         width: 400px;
-        margin-top: 10%;
-        margin-left: 10%
+        margin: 10% auto;
 
     }
 }
