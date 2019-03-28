@@ -705,7 +705,6 @@ body {
     #contactform {
         width: 400px;
         height: 650px;
-        margin-left: 10%;
         margin-top: 10%;
     }
     #forminputfields {
@@ -713,7 +712,6 @@ body {
     }
     #currentproject {
         width: 400px;
-        margin-left: 10%;
         margin-top: 10%;
     }
 }
