@@ -29,8 +29,8 @@ html {
  }
 
  #whoami {
-     margin-left: 46%;
-     margin-top: 27%;
+     margin-left: 45%;
+     margin-top: 30%;
  }
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
@@ -567,7 +567,7 @@ body {
     padding-top: 200px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .navbar {
         display: flex;
         padding-bottom: 0;
