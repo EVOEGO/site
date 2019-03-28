@@ -9,6 +9,7 @@ html {
     background-size: cover;
     height: 100%;
     overflow: hidden;
+    width: 100%;
 }
  #heading1 {
      font-family: 'Quicksand', sans-serif;
@@ -24,7 +25,7 @@ html {
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
-     mix-blend-mode: screen
+     mix-blend-mode: screen;
  }
  #whoami {
      margin-left: 46%;
@@ -284,26 +285,27 @@ body {
 #infocard1 {
     width: 600px;
     height: 250px;
-    margin-top: -16%;
     margin-left: 47%;
-    font-size: 25px;
+    position: absolute;
+    font-size: 20px;
 }
 
 #devphoto {
     width: 250px;
     height: 250px;
-    margin-top: 8%;
-    margin-left: 28%;
+    margin-left: 22%;
     border-radius: 50%;
+    position: absolute;
 
+}
+#info{
+    margin-top: 15%;
 }
 #container {
     top: 4%;
     text-align: center;
     padding-top: 10px;
 }
-
-
 
 .label {
     background: white;
@@ -317,7 +319,7 @@ body {
 }
 #langauges {
     height: 1133px;
-    margin-top: 22%;
+    margin-top: 32%;
     background: rgba(255, 255, 255, 0.9);
 }
 #container5 {
@@ -343,19 +345,17 @@ body {
     background: rgba(255, 255, 255, 0.2);
 
 }
-#info {
-    margin-top: 40%;
-    margin-left: -45px;
-}
+
 #controller1 {
     width: 600px;
     padding-top: 2%;
     margin-left: 30%;
 }
 
+
 #parallax {
     background-image: url("img/building.jpg");
-    height: 3000px;
+    height: 2380px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -376,11 +376,11 @@ body {
 }
 
 .html {
-    width: 90%;
+    width: 100%;
     background-color: #4CAF50;
 }
 .css {
-    width: 90%;
+    width: 100%;
     background-color: #2196F3;
 }
 .js {
@@ -388,7 +388,7 @@ body {
     background-color: #f44336;
 }
 .php {
-    width: 90%;
+    width: 100%;
     background-color: #808080;
 }
 
@@ -538,7 +538,7 @@ body {
 }
 #scrollbutton {
     margin-top: 28%;
-    margin-left:    44%;
+    margin-left: 44%;
 }
 #scrollbutton2 {
     margin-left: 46%;
@@ -550,12 +550,12 @@ body {
 }
 #contactform {
     background: rgba(255, 255, 255, 0.9);
-    height: 700px;
+    height: 650px;
 }
 #forminputfields {
     width: 600px;
     text-align: center;
-    margin-left: 28%;
+    margin: 0 auto;
     padding-top: 20px;
 }
 #currentproject {
@@ -563,4 +563,44 @@ body {
     background: rgba(255, 255, 255, 0.9);
     text-align: center;
     padding-top: 200px;
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 50px;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .main-nav li {
+        margin: 0;
+    }
+
+    .nav-links {
+        margin-left: 40px;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+
 }
