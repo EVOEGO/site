@@ -620,7 +620,7 @@ body {
         mix-blend-mode: screen;
     }
     #whoami{
-        margin-top: 40%;
+        margin-top: 55%;
         margin-left: 37%;
     }
     #aboutheading{
@@ -706,6 +706,7 @@ body {
         width: 400px;
         height: 650px;
         margin-top: 10%;
+        margin-left: 10%
     }
     #forminputfields {
         width: 350px;
@@ -713,5 +714,7 @@ body {
     #currentproject {
         width: 400px;
         margin-top: 10%;
+        margin-left: 10%
+
     }
 }
