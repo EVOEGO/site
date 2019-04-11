@@ -288,7 +288,7 @@ body {
     height: 250px;
     margin-left: 47%;
     position: absolute;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #devphoto {
@@ -475,6 +475,10 @@ body {
     text-align: center;
     margin-top: 25%;
 }
+#cardtextbackground{
+    padding-left: 5%;
+    padding-right: 5%;
+}
 #myexperience {
     padding-top: 20px;
     margin-top: 2%;
@@ -648,6 +652,7 @@ body {
         margin-left: 10%;
 
     }
+    
     #infocard1 {
         font-size: 10px;
         width: 250px;
@@ -664,6 +669,9 @@ body {
     #aboutmeheading {
         font-size: 22px;
         text-align: center;
+    }
+    #overcastaboutheading{
+        font-size: 20px;
     }
     #controller1 {
         width: 300px;
@@ -703,16 +711,15 @@ body {
         margin-top: -60%;
     }
     #contactform {
-        width: 400px;
+        width: 100%;
         height: 650px;
-        margin: 10% auto;
+        margin-top: 8%;
     }
     #forminputfields {
         width: 350px;
     }
     #currentproject {
-        width: 400px;
-        margin: 10% auto;
-
+        width: 100%;
+        margin-top: 8%;
     }
 }
