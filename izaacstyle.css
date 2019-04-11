@@ -479,6 +479,10 @@ body {
     padding-left: 5%;
     padding-right: 5%;
 }
+#cardtextbackgroundsubtext{
+    padding-left: 5%;
+    padding-right: 5%;
+}
 #myexperience {
     padding-top: 20px;
     margin-top: 2%;
@@ -652,7 +656,7 @@ body {
         margin-left: 10%;
 
     }
-    
+
     #infocard1 {
         font-size: 10px;
         width: 250px;
