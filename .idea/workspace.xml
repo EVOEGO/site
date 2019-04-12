@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4aeeb2f-1aa5-4172-92f7-3f5102129476" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/izaacstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/izaacstyle.css" afterDir="false" />
-    </list>
+    <list default="true" id="d4aeeb2f-1aa5-4172-92f7-3f5102129476" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/izaacstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3969">
-              <caret line="549" column="20" selection-start-line="549" selection-start-column="20" selection-end-line="549" selection-end-column="20" />
+            <state relative-caret-position="194">
+              <caret line="550" column="1" lean-forward="true" selection-start-line="550" selection-start-column="1" selection-end-line="550" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -46,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="124" column="43" selection-start-line="124" selection-start-column="43" selection-end-line="124" selection-end-column="43" />
+            <state relative-caret-position="200">
+              <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -102,6 +99,7 @@
       <find>langa</find>
       <find>container4</find>
       <find>other</find>
+      <find>scrolldown</find>
       <find>scrollbutton</find>
     </findStrings>
   </component>
@@ -196,12 +194,12 @@
       <updated>1553212036282</updated>
       <workItem from="1553212037428" duration="27980000" />
       <workItem from="1553490401452" duration="7497000" />
-      <workItem from="1554418789673" duration="12681000" />
+      <workItem from="1554418789673" duration="12927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115849000" />
+    <option name="totallyTimeSpent" value="116095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -285,13 +283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="124" column="43" selection-start-line="124" selection-start-column="43" selection-end-line="124" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -299,10 +290,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/izaacstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3969">
-          <caret line="549" column="20" selection-start-line="549" selection-start-column="20" selection-end-line="549" selection-end-column="20" />
+        <state relative-caret-position="194">
+          <caret line="550" column="1" lean-forward="true" selection-start-line="550" selection-start-column="1" selection-end-line="550" selection-end-column="1" />
         </state>
       </provider>
     </entry>
