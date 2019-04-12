@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4aeeb2f-1aa5-4172-92f7-3f5102129476" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/currentprojects.html" beforeDir="false" afterPath="$PROJECT_DIR$/currentprojects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/izaacstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/izaacstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
-    </list>
+    <list default="true" id="d4aeeb2f-1aa5-4172-92f7-3f5102129476" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/izaacstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="483" column="22" selection-start-line="483" selection-start-column="22" selection-end-line="483" selection-end-column="22" />
+            <state relative-caret-position="355">
+              <caret line="477" column="20" lean-forward="true" selection-start-line="477" selection-start-column="20" selection-end-line="477" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -53,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="56" column="45" lean-forward="true" selection-start-line="56" selection-end-line="57" />
+            <state relative-caret-position="322">
+              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -117,8 +113,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/currentprojects.html" />
-        <option value="$PROJECT_DIR$/services.html" />
         <option value="$PROJECT_DIR$/izaacstyle.css" />
+        <option value="$PROJECT_DIR$/services.html" />
       </list>
     </option>
   </component>
@@ -193,12 +189,12 @@
       <updated>1553212036282</updated>
       <workItem from="1553212037428" duration="27980000" />
       <workItem from="1553490401452" duration="7497000" />
-      <workItem from="1554418789673" duration="8997000" />
+      <workItem from="1554418789673" duration="10355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112165000" />
+    <option name="totallyTimeSpent" value="113523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -289,17 +285,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services.html">
+    <entry file="file://$PROJECT_DIR$/izaacstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="56" column="45" lean-forward="true" selection-start-line="56" selection-end-line="57" />
+        <state relative-caret-position="355">
+          <caret line="477" column="20" lean-forward="true" selection-start-line="477" selection-start-column="20" selection-end-line="477" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/izaacstyle.css">
+    <entry file="file://$PROJECT_DIR$/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="483" column="22" selection-start-line="483" selection-start-column="22" selection-end-line="483" selection-end-column="22" />
+        <state relative-caret-position="322">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
         </state>
       </provider>
     </entry>
